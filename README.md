@@ -10,7 +10,7 @@ The purpose of this project is to automate the web UI and the API of the Nexus w
   3. Set Environment PATH variable to msedgedriver.exe directory (should create a folder in C driver named WebDrivers)
  ### Install packages
   1. Navigate to virtual environment
-  2. Enter in venv terminal: pip install -r C:\Misc\requirements.txt
+  2. Enter in venv terminal: pip install -r .\Misc\requirements.txt
    (can also install through cmd if preferred)
    
 ## Package Details
