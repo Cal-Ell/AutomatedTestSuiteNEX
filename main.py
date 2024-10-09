@@ -39,6 +39,6 @@ def test_launch_driver(driver):
 if __name__ == '__main__':
     test_arguments = '-rA'  # -rA is an example of a test argument. 'r' displays a test result summary. 'A' shows the summary for 'all' result types (pass, fail, skipped, etc)
     test_case_files = 'main.py'  # main.py is the location of the test case above
-    test_output = '--html=TestFile.html'  # name of results will be in local file named TestFile.html
+    test_output = '--html=.\Results\TestFile.html'  # name of results will be in local file named TestFile.html
     test_output_config = '--self-contained-html'  # CSS file built into the html file
     pytest.main([test_arguments, test_case_files, test_output, test_output_config])
